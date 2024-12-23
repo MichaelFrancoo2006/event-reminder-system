@@ -21,3 +21,14 @@ void menu() {
 }
 
 vector<Event> events; // Stores all events
+
+void addEvent() {
+    Event newEvent;
+    cout << "Enter event name: ";
+    cin.ignore();
+    getline(cin, newEvent.name);
+    cout << "Enter event date (YYYY-MM-DD): ";
+    cin >> newEvent.date;
+    events.push_back(newEvent);
+    cout << "Event added successfully!\n";
+}
