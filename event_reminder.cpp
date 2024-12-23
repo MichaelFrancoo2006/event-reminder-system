@@ -19,3 +19,5 @@ void menu() {
     cout << "Welcome to the Event Reminder System!\n";
     cout << "Menu will be implemented soon.\n";
 }
+
+vector<Event> events; // Stores all events
